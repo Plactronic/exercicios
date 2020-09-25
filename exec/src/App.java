@@ -1,3 +1,5 @@
+import javax.print.attribute.standard.Media;
+
 public class App {
     public static void main(String[] args) throws Exception {
        MaiorNumero mn = new MaiorNumero();
@@ -16,6 +18,11 @@ public class App {
     ComparaNumero cn = new ComparaNumero();
     // cn.maiorMenor(12, 12);
 
-
+    MediaAluno ma = new MediaAluno();
+    ma.addNota(1);
+    ma.addNota(2);
+    ma.addNota(3);
+    ma.addNota(4);
+    ma.media();
     }
 }
